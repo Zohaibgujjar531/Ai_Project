@@ -23,7 +23,7 @@ try:
 except ImportError:  # pragma: no cover - handled gracefully at runtime
     Groq = None
 
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 
 class AgentError(Exception):
